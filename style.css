@@ -1,0 +1,76 @@
+:root{
+    box-sizing: border-box;
+}
+
+::before, ::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0 3.5em;;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:solid red 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header div i{
+    padding: 0.5em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-container-ready{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    padding: 20px;
+    font-size: 1em;
+    text-align: left;
+}
+
+main h2 span{
+    margin-left: 30px;
+    border-bottom: solid red 6px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.icono{
+    color: red;
+    padding: 15px;
+    font-size: 2.5em;
+    margin-right: 20px;
+}
+
+.normal{
+    background-color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: solid red 1px;
+    color: red;
+    font-size: 1em;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.grid-container-ready1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
